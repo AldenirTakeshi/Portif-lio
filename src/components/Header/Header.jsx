@@ -14,13 +14,19 @@ const Header = () => {
             <Nav.Link href="#contato">Contato</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="https://www.linkedin.com/in/aldenir-dos-santos-5b493913b/">
+            <Nav.Link
+              target="blank"
+              href="https://www.linkedin.com/in/aldenir-dos-santos-5b493913b/"
+            >
               <FaLinkedin />
             </Nav.Link>
-            <Nav.Link href="https://github.com/AldenirTakeshi">
+            <Nav.Link target="blank" href="https://github.com/AldenirTakeshi">
               <FaGithub />
             </Nav.Link>
-            <Nav.Link href="https://www.instagram.com/takeshi.js/?__coig_restricted=1">
+            <Nav.Link
+              target="blank"
+              href="https://www.instagram.com/takeshi.js/?__coig_restricted=1"
+            >
               <FaInstagram />
             </Nav.Link>
           </Nav>
