@@ -1,5 +1,18 @@
-.container-main {
-  background-image: url(./Wallpapers-for-Portifolio.gif);
+.GifAnimacion {
+  background: url("./Wallpapers-for-Portifolio.gif") center center no-repeat;
   background-size: 100%;
   height: 600px;
+  background-size: cover;
+  position: relative;
+}
+
+.GifAnimacion::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5); /* Um tom de preto semi-transparente */
 }
